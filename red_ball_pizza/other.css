@@ -1,0 +1,94 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Samuel Marchuk
+    Date: 8/14/2024
+    File: other.css
+ */
+header img {
+  width: 100%;
+}
+
+body {
+  background-image: url("parlor.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.horizontal {
+  align-items: center;
+  padding-left: 20px;
+}
+
+main {
+  background-color: white;
+  border-left: solid 5px rgb(154, 20, 23);
+  border-right: solid 5px rgb(154, 20, 23);
+  padding: 10px;
+}
+
+#deals {
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#deals div {
+  border: dashed 3px rgb(154, 20, 23);
+  background-color: #e7e7e7;
+  justify-content: center;
+}
+
+#deals h1 {
+  padding: 5px;
+}
+
+#deals div :nth-child(2) {
+  padding-left: 10px;
+  width: 160px;
+}
+
+#deals > :nth-child(odd) {
+  background-color: #fec2c6;
+}
+
+#deals div :last-child {
+  padding-right: 10px;
+}
+
+#deals div :nth-child(3) {
+  font-weight: bold;
+}
+
+.vertical {
+  margin-top: 20px;
+}
+
+.vertical li {
+  background: linear-gradient(
+    to right,
+    rgba(154, 20, 23, 1),
+    rgba(154, 20, 23, 0)
+  );
+  color: white;
+  padding: 5px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.vertical a {
+  color: white;
+}
+
+aside h1 {
+  font-weight: bold;
+}
+
+aside li {
+  background: linear-gradient(to right, #c5c5c5, #d46e75);
+  border: rgb(154, 20, 23) 1px solid;
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
